@@ -1,3 +1,6 @@
+import types from '../types';
+
+const GET_SUMMONER = types.GET_SUMMONER;
 const defaultState = {
 	text:""
 };

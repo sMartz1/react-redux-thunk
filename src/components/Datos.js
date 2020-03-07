@@ -39,7 +39,7 @@ render(){
 	return(<div className="datosC">
 		<input type="text" name="box" onChange={ this.sendSummoner}/>
 		<button onClick={this.clickSummoner}>Click</button>
-		<h3>Datos test : {this.props.summonerReducer}</h3>
+		<h3>Datos test : {this.props.summonerReducer.title}</h3>
 		</div>)
 }
 }
