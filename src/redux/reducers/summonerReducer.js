@@ -1,6 +1,8 @@
-const defaultState = "default";
+const defaultState = {
+	text:""
+};
 
-function reducer(state = defaultState, {type,payload}){
+function reducer(state = defaultState.text, {type,payload}){
 	console.log("Reducer Caller summonerReducer.js")
 	switch(type){
 
